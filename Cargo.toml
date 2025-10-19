@@ -1,0 +1,13 @@
+[package]
+name = "log-debounce"
+version = "0.1.0"
+edition = "2024"
+authors = ["Miles Glapa-Grossklag <miles@glapa-grossklag.com>"]
+license = "MIT"
+description = "Debounced logging macros for the log crate"
+repository = "https://github.com/glapa-grossklag/log-debounce"
+keywords = ["logging", "log", "debounce", "rate-limit"]
+categories = ["development-tools::debugging"]
+
+[dependencies]
+log = "0.4"
